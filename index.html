@@ -10,10 +10,22 @@
 </head>
 <body ng-app="myApp">
 	
-	<header></header>
+	<header>
+		<nav role="navigation" class="container">
+			<div class="row">
+				<ul class="col-md-12">
+					<li>
+						<a href="#" class="gameTiming" data-timing="play"> Play </a>
+						<a href="#" class="gameTiming" data-timing="pause"> Pause </a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
 	<div class="main container">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4 items">
 				
 				<div class="panel">
 					<div class="panel-header">
@@ -47,7 +59,7 @@
 						<h3>b</h3>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</div>
